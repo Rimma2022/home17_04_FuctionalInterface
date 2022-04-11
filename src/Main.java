@@ -41,38 +41,35 @@ public class Main {
         marks1.put("Высшая математика", 9);
         marks1.put("Теоретическая механика", 5);
         marks1.put("Экономика", 10);
-        System.out.println(marks1);
         Student st1 = new Student("Клименкова",marks1);
         System.out.println(st1);
 
         Map <String, Integer> marks2 = new HashMap<>();
-        marks1.put("История", 5);
-        marks1.put("Философия", 7);
-        marks1.put("Высшая математика", 5);
-        marks1.put("Теоретическая механика", 4);
-        marks1.put("Экономика", 6);
-        System.out.println(marks1);
-        Student st2 = new Student("Сугак",marks1);
+        marks2.put("История", 5);
+        marks2.put("Философия", 7);
+        marks2.put("Высшая математика", 5);
+        marks2.put("Теоретическая механика", 4);
+        marks2.put("Экономика", 6);
+        Student st2 = new Student("Сугак",marks2);
+        System.out.println(marks2);
         System.out.println(st2);
 
         Map <String, Integer> marks3 = new HashMap<>();
-        marks1.put("История", 8);
-        marks1.put("Философия", 5);
-        marks1.put("Высшая математика",10);
-        marks1.put("Теоретическая механика", 4);
-        marks1.put("Экономика", 9);
-        System.out.println(marks1);
-        Student st3 = new Student("Ромская",marks1);
+        marks3.put("История", 8);
+        marks3.put("Философия", 5);
+        marks3.put("Высшая математика",10);
+        marks3.put("Теоретическая механика", 4);
+        marks3.put("Экономика", 9);
+        Student st3 = new Student("Ромская",marks3);
         System.out.println(st3);
 
         Map <String, Integer> marks4 = new HashMap<>();
-        marks1.put("История", 9);
-        marks1.put("Философия", 10);
-        marks1.put("Высшая математика",4);
-        marks1.put("Теоретическая механика", 4);
-        marks1.put("Экономика", 6);
-        System.out.println(marks1);
-        Student st4 = new Student("Бурсов",marks1);
+        marks4.put("История", 9);
+        marks4.put("Философия", 10);
+        marks4.put("Высшая математика",4);
+        marks4.put("Теоретическая механика", 4);
+        marks4.put("Экономика", 6);
+        Student st4 = new Student("Бурсов",marks4);
         System.out.println(st4);
 
         ArrayList <Student> studentsArray = new ArrayList<>();
